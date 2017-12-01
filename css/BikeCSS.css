@@ -22,25 +22,37 @@
 #left_login{
 	width: 175px;
 	height:150px;
-	margin-top: 175px;
+	position: relative;
+	top: 175px;
+	left: 0px;
 	float: left;
 }
 #user_login{
 	width: 175px;
 	height:100px;
-	background-color: blueviolet;
-	-webkit-border-radius: 50px 0px 0px 0px;
+	background-color: #FDFDFD;
+	z-index: 10;
+	-webkit-border-radius: 10px 0px 0px 0px;
+}
+#user_login:hover{
+	background-color: #EFFAFF;
+	box-shadow:5px 0px 5px #CCCCCC;
 }
 #mana_login{
 	width: 175px;
 	height: 50px;
-	background-color: crimson;
-	-webkit-border-radius: 0px 0px 0px 50px;
+	background-color: #FDFDFD;
+	-webkit-border-radius: 0px 0px 0px 10px;
+}
+#mana_login:hover{
+	background-color: #EFFAFF;
+	box-shadow:5px 0px 5px #CCCCCC;
 }
 #right_login{
 	width: 300px;
 	height: 400px;
-	background-color:black;
+	background-color:#EFFAFF;
 	margin-top: 50px;
 	float: left;
+	z-index: 9;
 }
