@@ -27,26 +27,28 @@
 	top: 175px;
 	left: 0px;
 	float: left;
+	font-size: 18px;
+	text-align: center; 
 }
 #user_login{
 	width: 175px;
 	height:100px;
-	background-color: #FDFDFD;
+	background-color: #EFFAFF;
+	line-height: 100px;
 	z-index: 10;
 	-webkit-border-radius: 10px 0px 0px 0px;
 }
 #user_login:hover{
-	background-color: #EFFAFF;
 	box-shadow:5px 0px 5px #CCCCCC;
 }
 #mana_login{
 	width: 175px;
 	height: 50px;
 	background-color: #FDFDFD;
+	line-height: 50px;
 	-webkit-border-radius: 0px 0px 0px 10px;
 }
 #mana_login:hover{
-	background-color: #EFFAFF;
 	box-shadow:5px 0px 5px #CCCCCC;
 }
 #right_login{
