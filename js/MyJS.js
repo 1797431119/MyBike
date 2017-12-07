@@ -33,6 +33,8 @@ function addHei1(){
 	s1=setInterval("addHei()",2);
 	userDiv.style.backgroundColor="#EFFAFF";
 	manaDiv.style.backgroundColor="#FDFDFD";
+	userDiv.style.fontWeight="bold";
+	manaDiv.style.fontWeight="normal";
 }
 function addHei2(){
 	var userDiv=document.getElementById("user_login");
@@ -41,4 +43,6 @@ function addHei2(){
 	s2=setInterval("delHei()",2);
 	userDiv.style.backgroundColor="#FDFDFD";
 	manaDiv.style.backgroundColor="#EFFAFF";
+	userDiv.style.fontWeight="normal";
+	manaDiv.style.fontWeight="bold";
 }
