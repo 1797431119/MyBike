@@ -8,7 +8,12 @@
 	</head>
 	<body style="margin: 0 auto;">
 		<div id="main">
-			<div id="header"></div>
+			<div id="header">
+				<div id="logo"></div>
+				<div id="head_right1">时间</div>
+				<div id="head_right2">操作指南</div>
+				<div id="head_right3">主页</div>
+			</div>
 			<div id="login_div">
 				<div id="left_login">
 					<div id="user_login" onmouseover="addHei1()" >
@@ -20,12 +25,14 @@
 				</div>
 				<div id="right_login">
 					<div id="login">
+						<form action="main.html" method="get">
 						<div id="login_ban">登录页面</div>
 						<div id="user_in" class="input_area"><label>用户名：</label><input type="text"/></div>
 						<div id="pass_in" class="input_area"><label>密码：</label><input type="password"/></div>
 						<div id="getuser"><input type="checkbox"/>记住账号</div>
 						<div id="login_btn"><input type="submit" value="登录"/></div>
 						<div id="reg"><a href="#">>>没有账号？注册一个</a></div>
+						</form>
 					</div>
 				</div>
 			</div>

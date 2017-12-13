@@ -13,6 +13,45 @@ a{
 	width: 100%;
 	height: 50px;
 	background-color: dimgrey;
+	position: relative;
+}
+#logo{
+	width: 108px;
+	height: 50px;
+	background: url(../img/logo.jpg);
+	position: absolute;
+	left: 0px;
+	float: left;
+}
+#head_right1{
+	color: white;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 0px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#head_right2{
+	color: white;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 100px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#head_right3{
+	color: white;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 200px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
 }
 #login_div{
 	height: 500px;
@@ -68,6 +107,7 @@ a{
 	height: 300px;
 	background-color: #696969;
 	margin: 50px auto;
+	border-radius: 25px 25px;
 }
 #login_ban{
 	height: 30px; 
