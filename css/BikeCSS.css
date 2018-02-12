@@ -1,14 +1,57 @@
+a{
+	text-decoration: none;
+}
 #main{
 	margin: 0;
 	width: 100%;
-	height: 1000px;
+	height: 672px;
 	background-color: #57AEFE;
 	position: relative;
+	background: url(../img/timg.jpg) no-repeat top center;
 }
 #header{
 	width: 100%;
 	height: 50px;
 	background-color: dimgrey;
+	position: relative;
+}
+#logo{
+	width: 108px;
+	height: 50px;
+	background: url(../img/logo.jpg);
+	position: absolute;
+	left: 0px;
+	float: left;
+}
+#head_right1{
+	color: white;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 0px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#head_right2{
+	color: white;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 100px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#head_right3{
+	color: white;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 200px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
 }
 #login_div{
 	height: 500px;
@@ -26,26 +69,29 @@
 	top: 175px;
 	left: 0px;
 	float: left;
+	font-size: 18px;
+	text-align: center; 
 }
 #user_login{
 	width: 175px;
 	height:100px;
-	background-color: #FDFDFD;
+	background-color: #EFFAFF;
+	line-height: 100px;
 	z-index: 10;
 	-webkit-border-radius: 10px 0px 0px 0px;
+	font-weight: bold;
 }
 #user_login:hover{
-	background-color: #EFFAFF;
 	box-shadow:5px 0px 5px #CCCCCC;
 }
 #mana_login{
 	width: 175px;
 	height: 50px;
 	background-color: #FDFDFD;
+	line-height: 50px;
 	-webkit-border-radius: 0px 0px 0px 10px;
 }
 #mana_login:hover{
-	background-color: #EFFAFF;
 	box-shadow:5px 0px 5px #CCCCCC;
 }
 #right_login{
@@ -55,4 +101,57 @@
 	margin-top: 50px;
 	float: left;
 	z-index: 9;
+}
+#login{
+	width:250px ;
+	height: 300px;
+	background-color: #696969;
+	margin: 50px auto;
+	border-radius: 25px 25px;
+}
+#login_ban{
+	height: 30px; 
+	line-height: 30px; 
+	font-size: 18px;
+	text-align: center;
+	padding-top:30px ;
+	margin-bottom: 30px;
+}
+.input_area{
+	margin-top: 20px;
+}
+.input_area label{
+	width: 70px;
+	text-align: right;
+	display: block;
+	float: left;
+}
+.input_area input{
+	height: 20px;
+}
+#getuser{
+	margin-top: 20px;
+	margin-left: 65px;
+}
+#login_btn{
+	margin-top: 20px;
+	margin-left: 67px;
+}
+#login_btn input{
+	width: 87px;
+	height: 34px;
+	background-image: url(../img/loginbtn2.png);
+	border: none;
+	border-radius: 5px 5px;
+}
+#login_btn input:hover{
+	background-image: url(../img/loginbtn1.png);
+}
+#reg{
+	margin-top: 10px;
+	margin-left: 67px;
+	font-size: 12px;
+}
+#reg a{
+	color: red;
 }
