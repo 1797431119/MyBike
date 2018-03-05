@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/head.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script>
+			$(document).ready(function(){
+				function p(s) {
+    				return s < 10 ? '0' + s: s;
+				}
+				var setdate=setInterval(function(){
+					var date=new Date();
+					var year=date.getFullYear();
+					var month=date.getMonth()+1;
+					var day=date.getDate();
+					var hour=date.getHours();       //获取当前小时数(0-23)
+					var min=date.getMinutes();     //获取当前分钟数(0-59)
+					var sec=date.getSeconds();
+					var now=year+'-'+p(month)+"-"+p(day)+" "+p(hour)+':'+p(min)+":"+p(sec);
+					$("#head_right1").html(now);
+				},100);
+			});
+		</script>
+	</head>
+	<body style="margin: 0 auto;">
+		<div id="header">
+				<div id="logo"></div>
+				<div id="head_right1"></div>
+				<div id="head_right2">操作指南</div>
+				<div id="head_right3"><a href="index.html" target="">主页</a></div>
+		</div>
+	</body>
+</html>

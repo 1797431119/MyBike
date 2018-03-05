@@ -1,0 +1,50 @@
+#header{
+	margin: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: dimgrey;
+	position: relative;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
+#logo{
+	width: 108px;
+	height: 50px;
+	background: url(../img/logo.jpg);
+	position: absolute;
+	left: 0px;
+	float: left;
+}
+#head_right1{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	right: 0px;
+	float: left;
+}
+#head_right2{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 200px;
+	float: left;
+}
+#head_right2:hover{
+	background-color: #D7F7F6;
+	color: dimgrey;
+}
+#head_right3 a{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background-color: dimgrey;
+	text-decoration: none;
+	position: absolute;
+	right: 300px;
+	float: left;
+}
+#head_right3 a:hover{
+	background-color: #D7F7F6;
+	color: dimgrey;
+}
